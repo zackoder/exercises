@@ -14,7 +14,7 @@ func main() {
 	fmt.Println(SaveAndMiss("abcdefghijklmnopqrstuvwyz", 8))
 	fmt.Println(SaveAndMiss("Po65 4o", 10))
 }
-
+// the function SaveAndMiss used to save num character and miss or scipe num character
 func SaveAndMiss(arg string, num int) string {
 	if len(arg) == 0 || num <= 0 {
 		return arg
